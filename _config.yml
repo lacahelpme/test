@@ -1,10 +1,13 @@
 title: "Michael Berthold"
 description: "Portfolio website of Michael Berthold"
-baseurl: ""
-url: ""
+
+url: "https://lacahelpme.github.io"
+baseurl: "/test"
+
 markdown: kramdown
 permalink: pretty
 plugins: []
+
 default_lang: en
 languages:
   - en
