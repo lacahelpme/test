@@ -95,7 +95,7 @@ lang: en
       </div>
 
       <div class="research-quote">
-        <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+        <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a type specimen book.</p>
         <span>LIAM W.</span>
       </div>
     </div>
@@ -131,7 +131,7 @@ lang: en
   </div>
 </section>
 
-<section class="talks section section-dark-image">
+<section class="talks section">
   <div class="container talks-grid">
     <div class="talks-copy">
       <h2>Conference Talks &amp; Presentations</h2>
@@ -166,9 +166,7 @@ lang: en
   <div class="container musings-grid">
     <div class="musings-copy">
       <h2>Recent musings</h2>
-      <p>
-        thoughts, and reflections on technology, innovation, and more.
-      </p>
+      <p>thoughts, and reflections on technology, innovation, and more.</p>
       <a class="button button-dark" href="#">Read more</a>
     </div>
 
