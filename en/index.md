@@ -21,7 +21,11 @@ email_line: "Email: hello@example.com"
       <a class="button button--accent" href="#contact">Get in touch</a>
     </div>
     <div class="hero-media">
-      <img class="hero-portrait" src="/test/assets/img/portrait1.png" alt="Portrait illustration of Michael Berthold" width="820" height="980">
+      <img class="hero-portrait" 
+     src="{{ '/assets/img/portrait1.png' | relative_url }}" 
+     alt="Portrait illustration of Michael Berthold" 
+     width="820" 
+     height="980">
     </div>
   </div>
 </section>
