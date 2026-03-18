@@ -4,135 +4,194 @@ title: Home
 lang: en
 ---
 
-<section class="hero">
+<section class="hero section">
   <div class="container hero-grid">
-
-    <div class="hero-left">
+    <div class="hero-copy">
+      <p class="overline">About me</p>
       <h1>Hello</h1>
-      <p class="subtitle">I’m Michael Berthold, computer scientist.</p>
-      <a href="#contact" class="btn">GET IN TOUCH</a>
+      <p class="hero-subtitle">I’m Michael Berthold, computer scientist.</p>
+      <a class="button button-accent" href="#contact">Get in touch</a>
     </div>
 
-    <div class="hero-right">
-      <img class="hero-portrait"
-           src="{{ '/assets/img/portrait1.png' | relative_url }}"
-           alt="Portrait illustration of Michael Berthold"
-           width="820"
-           height="980">
+    <div class="hero-media">
+      <img class="hero-portrait" src="{{ '/assets/img/portrait1.png' | relative_url }}" alt="Portrait illustration of Michael Berthold" width="820" height="980">
     </div>
-
   </div>
 </section>
 
-
-<section class="stats">
+<section class="stats section-sm">
   <div class="container stats-grid">
-    <div class="card highlight">250+<span>Scientific Publications</span></div>
-    <div class="card">3+<span>Books</span></div>
-    <div class="card dark">30+<span>Years in Data Science & AI</span></div>
-    <div class="card grey">4+<span>Awards and honors</span></div>
+    <article class="stat-card stat-card-accent">
+      <strong>250+</strong>
+      <span>Scientific Publications</span>
+    </article>
+
+    <article class="stat-card">
+      <strong>3+</strong>
+      <span>books and textbooks</span>
+    </article>
+
+    <article class="stat-card stat-card-dark">
+      <strong>30+</strong>
+      <span>Years in Data Science &amp; AI</span>
+    </article>
+
+    <article class="stat-card stat-card-mid">
+      <strong>4+</strong>
+      <span>Awards and honors</span>
+    </article>
   </div>
 </section>
 
-
-<section class="about">
+<section class="about section">
   <div class="container about-grid">
-
-    <div class="about-left">
+    <div class="about-copy">
       <h2>About Me</h2>
       <p>
-        Michael Berthold is a computer scientist working at the intersection
-        of artificial intelligence, data science and real-world applications.
+        Michael Berthold is a computer scientist working at the intersection of
+        artificial intelligence, data science and real-world applications.
+      </p>
+      <p>
+        His work combines research, communication and technology leadership
+        with a strong focus on practical impact.
       </p>
     </div>
 
-    <div class="about-right">
-      <div class="box">Speaker</div>
-      <div class="box">Publicist</div>
-      <div class="box">AI & Data Science Pioneer</div>
-    </div>
+    <div class="about-boxes">
+      <a class="about-box" href="#">
+        <span class="about-box-title">Speaker</span>
+        <span class="about-box-link">learn more</span>
+      </a>
 
+      <a class="about-box" href="#">
+        <span class="about-box-title">Publicist</span>
+        <span class="about-box-link">learn more</span>
+      </a>
+
+      <a class="about-box" href="#">
+        <span class="about-box-title">AI &amp; Data Science Pioneer</span>
+        <span class="about-box-link">learn more</span>
+      </a>
+    </div>
   </div>
 </section>
 
-
-<section class="highlight-section">
-  <div class="container highlight-grid">
-
-    <div class="highlight-left">
+<section class="research section section-accent">
+  <div class="container research-grid">
+    <div class="research-copy">
       <h2>Advancing Data Science Through Research</h2>
-      <a href="/en/publications/" class="btn dark">PUBLICATIONS</a>
+      <a class="button button-dark" href="{{ '/en/publications/' | relative_url }}">Publications</a>
     </div>
 
-    <div class="highlight-right">
-      <p>
-        Michael’s work bridges academic rigor and real-world impact.
-      </p>
-      <p>
-        His research shaped modern approaches in data science.
-      </p>
-    </div>
+    <div class="research-quotes">
+      <div class="research-quote">
+        <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+        <span>KYLE D.</span>
+      </div>
 
+      <div class="research-quote">
+        <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+        <span>SOFIA M.</span>
+      </div>
+
+      <div class="research-quote">
+        <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+        <span>LIAM W.</span>
+      </div>
+    </div>
   </div>
 </section>
 
-
-<section class="books">
+<section class="books section">
   <div class="container">
-    <h2>Editor and co-author of textbooks:</h2>
+    <h2 class="section-title">Editor and co-author of textbooks:</h2>
 
     <div class="books-grid">
+      <article class="book-card">
+        <img src="{{ '/assets/img/book1.png' | relative_url }}" alt="Advances in Intelligent Data Analysis book cover">
+        <div class="book-caption">
+          Advances in Intelligent Data Analysis – Reasoning about Data (1997)
+        </div>
+      </article>
 
-      <div class="book">
-        <img src="{{ '/assets/img/book1.png' | relative_url }}" alt="">
-        <p>Advances in Intelligent Data Analysis</p>
-      </div>
+      <article class="book-card">
+        <img src="{{ '/assets/img/book2.png' | relative_url }}" alt="Intelligent Data Analysis book cover">
+        <div class="book-caption">
+          Intelligent Data Analysis 2nd Edition (2007)
+        </div>
+      </article>
 
-      <div class="book">
-        <img src="{{ '/assets/img/book2.png' | relative_url }}" alt="">
-        <p>Intelligent Data Analysis</p>
-      </div>
-
-      <div class="book">
-        <img src="{{ '/assets/img/book3.png' | relative_url }}" alt="">
-        <p>Bisociative Knowledge Discovery</p>
-      </div>
-
+      <article class="book-card">
+        <img src="{{ '/assets/img/book3.png' | relative_url }}" alt="Bisociative Knowledge Discovery book cover">
+        <div class="book-caption">
+          Bisociative Knowledge Discovery (2012)
+        </div>
+      </article>
     </div>
   </div>
 </section>
 
-
-<section class="talks">
+<section class="talks section section-dark-image">
   <div class="container talks-grid">
-
-    <div class="talks-left">
-      <h2>Conference Talks & Presentations</h2>
-      <p>Selected talks and keynote appearances.</p>
-      <a href="#" class="btn">SEE MORE</a>
+    <div class="talks-copy">
+      <h2>Conference Talks &amp; Presentations</h2>
+      <p>A selection of recent presentations and videos</p>
+      <a class="button button-accent" href="#">See more</a>
     </div>
 
-    <div class="talks-right">
-      <img src="{{ '/assets/img/bg1.png' | relative_url }}" alt="">
+    <div class="talks-media">
+      <img src="{{ '/assets/img/bg1.png' | relative_url }}" alt="Conference presentation shown on a laptop">
     </div>
-
   </div>
 </section>
 
-
-<section class="interests">
+<section class="interests section">
   <div class="container interests-grid">
-
-    <div class="interests-left">
+    <div class="interests-copy">
       <h2>Interests</h2>
       <p>
-        Exploring the intersection of technology, science and creativity.
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+        when an unknown printer took a galley of type and scrambled it to make a type specimen book.
       </p>
     </div>
 
-    <div class="interests-right">
-      <img src="{{ '/assets/img/portrait2.png' | relative_url }}" alt="">
+    <div class="interests-media">
+      <img src="{{ '/assets/img/portrait2.png' | relative_url }}" alt="Speaker image of Michael Berthold">
+    </div>
+  </div>
+</section>
+
+<section class="musings section">
+  <div class="container musings-grid">
+    <div class="musings-copy">
+      <h2>Recent musings</h2>
+      <p>
+        thoughts, and reflections on technology, innovation, and more.
+      </p>
+      <a class="button button-dark" href="#">Read more</a>
     </div>
 
+    <div class="musings-cards">
+      <article class="musing-card musing-accent">
+        <span class="musing-index">01</span>
+        <h3>Bias in AI is bad – but is it really?</h3>
+      </article>
+
+      <article class="musing-card musing-dark">
+        <span class="musing-index">02</span>
+        <h3>Bias in AI is bad – but is it really?</h3>
+      </article>
+
+      <article class="musing-card">
+        <span class="musing-index">03</span>
+        <h3>Bias in AI is bad – but is it really?</h3>
+      </article>
+
+      <article class="musing-card musing-accent">
+        <span class="musing-index">04</span>
+        <h3>Bias in AI is bad – but is it really?</h3>
+      </article>
+    </div>
   </div>
 </section>
