@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="760" viewBox="0 0 760 760">
+<rect width="760" height="760" fill="#efefef"/>
+<ellipse cx="430" cy="150" rx="86" ry="92" fill="#bcbcbc"/>
+<rect x="350" y="240" width="170" height="280" rx="26" fill="#d8d8d8"/>
+<rect x="275" y="260" width="85" height="260" rx="25" fill="#cecece" transform="rotate(20 275 260)"/>
+<rect x="515" y="230" width="78" height="240" rx="24" fill="#cecece" transform="rotate(-18 515 230)"/>
+<rect x="355" y="505" width="68" height="200" rx="22" fill="#c5c5c5" transform="rotate(10 355 505)"/>
+<rect x="455" y="505" width="68" height="200" rx="22" fill="#c5c5c5" transform="rotate(-6 455 505)"/>
+<text x="70" y="705" fill="#8c8c8c" font-family="Courier New" font-size="32">replace with final speaker image</text>
+</svg>

@@ -1,0 +1,24 @@
+{% assign current_lang = page.lang | default: site.default_lang %}
+{% assign nav = site.data.navigation[current_lang] %}
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="logo" href="{{ nav.switch[current_lang] | relative_url }}" aria-label="Homepage">MB</a>
+
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Toggle navigation">
+      <span></span><span></span><span></span>
+    </button>
+
+    <nav class="site-nav" id="site-nav" aria-label="Primary">
+      <ul>
+        {% for item in nav.menu %}
+          <li><a href="{{ item.url | relative_url }}">{{ item.title }}</a></li>
+        {% endfor %}
+      </ul>
+    </nav>
+
+    <div class="lang-switcher" aria-label="Language switcher">
+      <a href="{{ nav.switch.en | relative_url }}" {% if current_lang == 'en' %}aria-current="page"{% endif %}>EN</a>
+      <a href="{{ nav.switch.de | relative_url }}" {% if current_lang == 'de' %}aria-current="page"{% endif %}>DE</a>
+    </div>
+  </div>
+</header>

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="620" viewBox="0 0 900 620">
+<rect width="900" height="620" fill="#3a383d"/>
+<rect x="60" y="80" width="780" height="430" rx="20" fill="#1b1b1b"/>
+<rect x="110" y="120" width="680" height="280" rx="10" fill="#efefef"/>
+<polygon points="470,260 470,320 525,290" fill="#7e7e7e"/>
+<rect x="140" y="445" width="620" height="18" fill="#555"/>
+<circle cx="120" cy="540" r="34" fill="#111"/>
+<circle cx="200" cy="548" r="28" fill="#111"/>
+<circle cx="280" cy="540" r="34" fill="#111"/>
+<circle cx="380" cy="550" r="26" fill="#111"/>
+<circle cx="460" cy="542" r="34" fill="#111"/>
+<circle cx="560" cy="547" r="30" fill="#111"/>
+<circle cx="650" cy="540" r="34" fill="#111"/>
+<circle cx="740" cy="548" r="27" fill="#111"/>
+</svg>

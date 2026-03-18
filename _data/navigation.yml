@@ -1,0 +1,29 @@
+en:
+  menu:
+    - title: "About me"
+      url: "/en/"
+    - title: "Musings"
+      url: "/en/#musings"
+    - title: "Videos"
+      url: "/en/#talks"
+    - title: "Publications"
+      url: "/en/publications/"
+  cta: "Get in touch"
+  switch:
+    en: "/en/"
+    de: "/de/"
+
+de:
+  menu:
+    - title: "Über mich"
+      url: "/de/"
+    - title: "Gedanken"
+      url: "/de/#musings"
+    - title: "Videos"
+      url: "/de/#talks"
+    - title: "Publikationen"
+      url: "/de/publications/"
+  cta: "Kontakt"
+  switch:
+    en: "/en/"
+    de: "/de/"

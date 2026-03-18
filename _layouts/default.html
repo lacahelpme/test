@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.default_lang }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ page.title }} | {{ site.title }}</title>
+  <meta name="description" content="{{ page.description | default: site.description | escape }}">
+  <meta name="theme-color" content="#e6eb84">
+  <link rel="stylesheet" href="{{ '/assets/css/styles.css' | relative_url }}">
+  <script defer src="{{ '/assets/js/main.js' | relative_url }}"></script>
+  {% assign alt_lang = 'de' %}
+  {% if page.lang == 'de' %}{% assign alt_lang = 'en' %}{% endif %}
+  <link rel="alternate" hreflang="en" href="{{ site.url }}{{ site.baseurl }}{% if page.ref == 'home' %}/en/{% elsif page.ref == 'publications' %}/en/publications/{% endif %}">
+  <link rel="alternate" hreflang="de" href="{{ site.url }}{{ site.baseurl }}{% if page.ref == 'home' %}/de/{% elsif page.ref == 'publications' %}/de/publications/{% endif %}">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  {% include header.html %}
+  <main id="main">
+    {{ content }}
+  </main>
+  {% include footer.html %}
+</body>
+</html>

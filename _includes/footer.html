@@ -1,0 +1,23 @@
+<footer class="site-footer" id="contact">
+  <div class="container footer-shell">
+    <section class="contact-banner">
+      <div class="contact-banner__copy">
+        <p class="overline">{{ page.contact_overline }}</p>
+        <h2>{{ page.contact_title }}</h2>
+      </div>
+      <div class="contact-banner__media" aria-hidden="true">
+        <img src="{{ '/assets/img/speaker.svg' | relative_url }}" alt="" loading="lazy" width="600" height="500">
+      </div>
+    </section>
+
+    <section class="contact-info">
+      <div class="contact-info__name">{{ page.footer_name }}</div>
+      <address class="contact-info__details">
+        <p>{{ page.address_line }}</p>
+        <p><a href="tel:+49123456789">{{ page.phone_line }}</a></p>
+        <p><a href="mailto:hello@example.com">{{ page.email_line }}</a></p>
+        <p><a href="https://github.com/" target="_blank" rel="noopener noreferrer">GitHub</a></p>
+      </address>
+    </section>
+  </div>
+</footer>

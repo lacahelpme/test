@@ -1,0 +1,11 @@
+title: "Michael Berthold"
+description: "Portfolio website of Michael Berthold"
+baseurl: ""
+url: ""
+markdown: kramdown
+permalink: pretty
+plugins: []
+default_lang: en
+languages:
+  - en
+  - de
