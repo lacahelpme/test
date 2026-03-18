@@ -1,23 +1,26 @@
 <footer class="site-footer" id="contact">
-  <div class="container footer-shell">
-    <section class="contact-banner">
-      <div class="contact-banner__copy">
-        <p class="overline">{{ page.contact_overline }}</p>
-        <h2>{{ page.contact_title }}</h2>
-      </div>
-      <div class="contact-banner__media" aria-hidden="true">
-        <img src="{{ '/assets/img/speaker.svg' | relative_url }}" alt="" loading="lazy" width="600" height="500">
-      </div>
-    </section>
+  <div class="container footer-top">
+    <div class="footer-cta">
+      <h2>GET IN TOUCH</h2>
+    </div>
 
-    <section class="contact-info">
-      <div class="contact-info__name">{{ page.footer_name }}</div>
-      <address class="contact-info__details">
-        <p>{{ page.address_line }}</p>
-        <p><a href="tel:+49123456789">{{ page.phone_line }}</a></p>
-        <p><a href="mailto:hello@example.com">{{ page.email_line }}</a></p>
-        <p><a href="https://github.com/" target="_blank" rel="noopener noreferrer">GitHub</a></p>
+    <div class="footer-image-wrap">
+      <img src="{{ '/assets/img/portrait2.png' | relative_url }}" alt="Speaker image of Michael Berthold">
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <div class="container footer-bottom-grid">
+      <div class="footer-name">
+        MICHAEL R.<br>BERTHOLD
+      </div>
+
+      <address class="footer-contact">
+        <p>123 Anywhere St., Any City, ST 12345</p>
+        <p>Tel: 123-456-789</p>
+        <p>Email: hello@reallygreatsite.com</p>
+        <p>Social: @reallygreatsite</p>
       </address>
-    </section>
+    </div>
   </div>
 </footer>
